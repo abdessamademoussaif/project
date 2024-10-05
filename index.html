@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>my page</title>
+</head>
+<body>
+    <main class="container">
+        <label for="html"><i class="fa-brands fa-html5" ></i></label>
+        <textarea id="html-code" name="html" class="codes" onkeyup="run()"></textarea>
+        <label for="css"><i class="fa-brands fa-css3-alt"></i></label>
+        <textarea  id="css-code" name="css" class="codes" onkeyup="run()"></textarea>
+        <label for="js"><i class="fa-brands fa-square-js"></i></label>
+        <textarea  id="js-code" name="js" class="codes" onkeyup="run()"></textarea>
+        <div class="result">
+            result
+        </div>
+        <iframe id="result-codes"></iframe>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
